@@ -6,6 +6,11 @@
 // Discussion: https://github.com/rh-hideout/pokeemerald-expansion/pull/5075#issuecomment-2384088602
 // Showdown: https://github.com/smogon/Pokemon-Showdown/blob/master/data/pokedex.ts
 
+/////////////////////////////// MONSTER HUNTER EMERALD SPECIES
+
+#define SPECIES_VELOCIPREY            2000
+#define SPECIES_VELOCIDROME            2001
+///////////////////////////////
 #define SPECIES_NONE                                    0
 #define SPECIES_BULBASAUR                               1
 #define SPECIES_IVYSAUR                                 2
