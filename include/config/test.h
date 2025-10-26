@@ -43,6 +43,11 @@
 #undef P_GEN_9_CROSS_EVOS
 #define P_GEN_9_CROSS_EVOS               TRUE
 
+///////////////////////////////////  MONSTER HUNTER EMERALD FAMILIES DEFININITION
+#undef P_FAMILY_VELOCIPREY
+#define P_FAMILY_VELOCIPREY               TRUE
+
+////////////////////////////////////
 #undef P_FAMILY_BULBASAUR
 #define P_FAMILY_BULBASAUR               TRUE
 #undef P_FAMILY_CHARMANDER

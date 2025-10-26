@@ -112,6 +112,46 @@ static const u16 sNoneTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 
+///////////////////////////////////  MONSTER HUNTER EMERALD TEACHABLE MOVES
+
+#if P_FAMILY_VELOCIPREY
+static const u16 sVelocipreyTeachableLearnset[] = {
+    MOVE_BODY_SLAM,
+    MOVE_BULLET_SEED,
+    MOVE_DOUBLE_EDGE,
+    MOVE_ENDURE,
+    MOVE_FACADE,
+    MOVE_GIGA_DRAIN,
+    MOVE_PROTECT,
+    MOVE_REST,
+    MOVE_SLEEP_TALK,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SOLAR_BEAM,
+    MOVE_SUNNY_DAY,
+    MOVE_SWORDS_DANCE,
+    MOVE_TOXIC,
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sVelocidromeTeachableLearnset[] = {
+    MOVE_BODY_SLAM,
+    MOVE_BULLET_SEED,
+    MOVE_DOUBLE_EDGE,
+    MOVE_ENDURE,
+    MOVE_FACADE,
+    MOVE_GIGA_DRAIN,
+    MOVE_PROTECT,
+    MOVE_REST,
+    MOVE_SLEEP_TALK,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SOLAR_BEAM,
+    MOVE_SUNNY_DAY,
+    MOVE_SWORDS_DANCE,
+    MOVE_TOXIC,
+    MOVE_UNAVAILABLE,
+};
+#endif //P_FAMILY_VELOCIPREY
+/////////////////////////////////// END MONSTER HUNTER EMERALD TEACHABLE MOVES
 #if P_FAMILY_BULBASAUR
 static const u16 sBulbasaurTeachableLearnset[] = {
     MOVE_ATTRACT,

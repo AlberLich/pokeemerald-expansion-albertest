@@ -6,6 +6,7 @@
 // Discussion: https://github.com/rh-hideout/pokeemerald-expansion/pull/5075#issuecomment-2384088602
 // Showdown: https://github.com/smogon/Pokemon-Showdown/blob/master/data/pokedex.ts
 
+///////////////////////////////
 #define SPECIES_NONE                                    0
 #define SPECIES_BULBASAUR                               1
 #define SPECIES_IVYSAUR                                 2
@@ -1637,8 +1638,18 @@
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GMAX         SPECIES_URSHIFU_RAPID_STRIKE_GMAX
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
+/////////////////////////////// MONSTER HUNTER EMERALD SPECIES
 
-#define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
+#define SPECIES_VELOCIPREY            1524
+#define SPECIES_VELOCIDROME            1525
+#define SPECIES_GIAPREY            1526
+#define SPECIES_GIADROME            1527
+#define SPECIES_GENPREY            1528
+#define SPECIES_GENDROME            1529
+#define SPECIES_IOPREY            1530
+#define SPECIES_IODROME            1531
+//NOTE replace the  SPECIES EGG LINE(at bottom) with the new last species -> SPECIES_EGG (SPECIES_VELOCIDROME + 1)
+#define SPECIES_EGG                                     (SPECIES_IODROME + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 
