@@ -5,7 +5,42 @@ static const struct LevelUpMove sNoneLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_POUND),
     LEVEL_UP_END
 };
+/////////////////////////////// MONSTER HUNTER EMERALD LEARNSET
+#define LEVEL_UP_MOVE(lvl, moveLearned) {.move = moveLearned, .level = lvl}
+#define LEVEL_UP_END {.move = LEVEL_UP_MOVE_END, .level = 0}
 
+static const struct LevelUpMove sNoneLevelUpLearnset[] = {
+    LEVEL_UP_MOVE(1, MOVE_POUND),
+    LEVEL_UP_END
+};
+
+#if P_FAMILY_VELOCIPREY
+static const struct LevelUpMove sVelocipreyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_MOVE( 7, MOVE_LEECH_SEED),
+    LEVEL_UP_MOVE(13, MOVE_VINE_WHIP),
+    LEVEL_UP_MOVE(20, MOVE_POISON_POWDER),
+    LEVEL_UP_MOVE(27, MOVE_RAZOR_LEAF),
+    LEVEL_UP_MOVE(34, MOVE_GROWTH),
+    LEVEL_UP_MOVE(41, MOVE_SLEEP_POWDER),
+    LEVEL_UP_MOVE(48, MOVE_SOLAR_BEAM),
+    LEVEL_UP_END
+};
+static const struct LevelUpMove sVelocidromeLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_MOVE( 7, MOVE_LEECH_SEED),
+    LEVEL_UP_MOVE(13, MOVE_VINE_WHIP),
+    LEVEL_UP_MOVE(20, MOVE_POISON_POWDER),
+    LEVEL_UP_MOVE(27, MOVE_RAZOR_LEAF),
+    LEVEL_UP_MOVE(34, MOVE_GROWTH),
+    LEVEL_UP_MOVE(41, MOVE_SLEEP_POWDER),
+    LEVEL_UP_MOVE(48, MOVE_SOLAR_BEAM),
+    LEVEL_UP_END
+};
+#endif //P_FAMILY_VELOCIPREY
+/////////////////////////////// MONSTER HUNTER EMERALD LEARNSET
 #if P_FAMILY_BULBASAUR
 static const struct LevelUpMove sBulbasaurLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
