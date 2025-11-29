@@ -60,6 +60,21 @@
 #define P_FAMILY_GIAPREY           P_MH_POKEMON
 #define P_FAMILY_GENPREY           P_MH_POKEMON
 #define P_FAMILY_IOPREY           P_MH_POKEMON
+#define P_FAMILY_JAGGI           P_MH_POKEMON
+#define P_FAMILY_BAGGI           P_MH_POKEMON
+#define P_FAMILY_WROGGI           P_MH_POKEMON
+#define P_FAMILY_MACCAO           P_MH_POKEMON
+#define P_FAMILY_IZUCHI           P_MH_POKEMON
+/* #define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON
+#define P_FAMILY_           P_MH_POKEMON */
 /////////////////////////////////// END MONSTER HUNTER EMERALD FAMILIES 
 // To disable specific families, replace P_GEN_x_POKEMON with FALSE.
 #define P_FAMILY_BULBASAUR               P_GEN_1_POKEMON

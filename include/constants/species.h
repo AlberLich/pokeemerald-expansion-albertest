@@ -1648,6 +1648,63 @@
 #define SPECIES_GENDROME            1529
 #define SPECIES_IOPREY            1530
 #define SPECIES_IODROME            1531
+//Note there's a gap in docs so maybe some will be in different
+
+#define SPECIES_JAGGI 1536
+#define SPECIES_JAGGIA 1537
+#define SPECIES_GREAT_JAGGI 1538
+#define SPECIES_BAGGI 1539
+#define SPECIES_GREAT_BAGGI 1540
+#define SPECIES_WROGGI 1541
+#define SPECIES_GREAT_WROGGI 1542
+#define SPECIES_MACCAO 1543
+#define SPECIES_GREAT_MACCAO 1544
+#define SPECIES_IZUCHI 1545
+#define SPECIES_GREAT_IZUCHI 1546
+
+//NOTE to easy access more numbers just delete /* at the start and write it again later 
+/*
+#define SPECIES_ 1547
+#define SPECIES_ 1548
+#define SPECIES_ 1549
+#define SPECIES_ 1550
+#define SPECIES_ 1551
+#define SPECIES_ 1552
+#define SPECIES_ 1553
+#define SPECIES_ 1554
+#define SPECIES_ 1555
+#define SPECIES_ 1556
+#define SPECIES_ 1557
+#define SPECIES_ 1558
+#define SPECIES_ 1559
+#define SPECIES_ 1560
+#define SPECIES_ 1561
+#define SPECIES_ 1562
+#define SPECIES_ 1563
+#define SPECIES_ 1564
+#define SPECIES_ 1565
+#define SPECIES_ 1566
+#define SPECIES_ 1567
+#define SPECIES_ 1568
+#define SPECIES_ 1569
+#define SPECIES_ 1570
+#define SPECIES_ 1571
+#define SPECIES_ 1572
+#define SPECIES_ 1573
+#define SPECIES_ 1574
+#define SPECIES_ 1575
+#define SPECIES_ 1576
+#define SPECIES_ 1577
+#define SPECIES_ 1578
+#define SPECIES_ 1579
+#define SPECIES_ 1580
+#define SPECIES_ 1581
+#define SPECIES_ 1582
+#define SPECIES_ 1583
+#define SPECIES_ 1584
+#define SPECIES_ 1585 */
+
+
 //NOTE replace the  SPECIES EGG LINE(at bottom) with the new last species -> SPECIES_EGG (SPECIES_VELOCIDROME + 1)
 #define SPECIES_EGG                                     (SPECIES_IODROME + 1)
 
