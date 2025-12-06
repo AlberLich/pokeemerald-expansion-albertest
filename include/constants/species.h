@@ -1662,7 +1662,8 @@
 #define SPECIES_IZUCHI 1545
 #define SPECIES_GREAT_IZUCHI 1546
 
-//NOTE to easy access more numbers just delete /* at the start and write it again later 
+
+//NOTE replace the  SPECIES EGG LINE(at bottom) with the new last species -> SPECIES_EGG (SPECIES_VELOCIDROME + 1)
 /*
 #define SPECIES_ 1547
 #define SPECIES_ 1548
@@ -1705,7 +1706,6 @@
 #define SPECIES_ 1585 */
 
 
-//NOTE replace the  SPECIES EGG LINE(at bottom) with the new last species -> SPECIES_EGG (SPECIES_VELOCIDROME + 1)
 #define SPECIES_EGG                                     (SPECIES_IODROME + 1)
 
 #define NUM_SPECIES SPECIES_EGG
