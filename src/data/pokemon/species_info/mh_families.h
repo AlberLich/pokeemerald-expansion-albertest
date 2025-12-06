@@ -1355,6 +1355,8 @@ const struct SpeciesInfo gSpeciesInfoMH[] =
 
 #endif //P_FAMILY_IZUCHI
 
+
+
 #ifdef __INTELLISENSE__
 };
 #endif

@@ -65,6 +65,23 @@
 #define P_FAMILY_WROGGI           P_MH_POKEMON
 #define P_FAMILY_MACCAO           P_MH_POKEMON
 #define P_FAMILY_IZUCHI           P_MH_POKEMON
+/*
+ #define P_FAMILY_APTOVEAL           P_MH_POKEMON
+#define P_FAMILY_GAJAU           P_MH_POKEMON
+#define P_FAMILY_VESPOID           P_MH_POKEMON
+#define P_FAMILY_YIAN_KIKI           P_MH_POKEMON
+#define P_FAMILY_YIAN_GUGU           P_MH_POKEMON
+#define P_FAMILY_AKASA           P_MH_POKEMON
+#define P_FAMILY_PUKABY           P_MH_POKEMON
+#define P_FAMILY_CORAL_PUKABY           P_MH_POKEMON
+#define P_FAMILY_ROMPIMPLE           P_MH_POKEMON
+#define P_FAMILY_INATYKE           P_MH_POKEMON
+// TODO LAO SHAN LUNG
+#define P_FAMILY_RATH           P_MH_POKEMON
+#define P_FAMILY_FATALIS           P_MH_POKEMON
+ */
+
+
 /* #define P_FAMILY_           P_MH_POKEMON
 #define P_FAMILY_           P_MH_POKEMON
 #define P_FAMILY_           P_MH_POKEMON
