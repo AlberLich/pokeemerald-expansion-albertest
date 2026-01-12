@@ -26732,6 +26732,26 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_FAMILY_PECHARUNT
 
+//Monster Hunter Emerald
+#if P_FAMILY_VELOCIPREY
+    const u32 gMonFrontPic_Velociprey[] = INCBIN_U32("graphics/pokemon/velociprey/front.4bpp.smol");
+    const u16 gMonPalette_Velociprey[] = INCBIN_U16("graphics/pokemon/velociprey/normal.gbapal");
+    const u32 gMonBackPic_Velociprey[] = INCBIN_U32("graphics/pokemon/velociprey/back.4bpp.smol");
+    const u16 gMonShinyPalette_Velociprey[] = INCBIN_U16("graphics/pokemon/velociprey/shiny.gbapal");
+    const u8 gMonIcon_Velociprey[] = INCBIN_U8("graphics/pokemon/velociprey/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_Velociprey[] = INCBIN_U8("graphics/pokemon/velociprey/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_Velociprey[] = INCBIN_COMP("graphics/pokemon/velociprey/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u16 gOverworldPalette_Velociprey[] = INCBIN_U16("graphics/pokemon/velociprey/overworld_normal.gbapal");
+    const u16 gShinyOverworldPalette_Velociprey[] = INCBIN_U16("graphics/pokemon/velociprey/overworld_shiny.gbapal");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+#endif //P_FAMILY_VELOCIPREY
+
+
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.smol");
     const u16 gMonPalette_Egg[] = INCBIN_U16("graphics/pokemon/egg/normal.gbapal");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
