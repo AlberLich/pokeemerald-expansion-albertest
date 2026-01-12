@@ -38,23 +38,19 @@ const struct SpeciesInfo gSpeciesInfoMH[] =
         .pokemonOffset = 22,
         .trainerScale = 256,
         .trainerOffset = 0,
-        .frontPic = gMonFrontPic_Pidgey,
+        .frontPic = gMonFrontPic_Velociprey,
         .frontPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(40, 32) : MON_COORDS_SIZE(40, 40),
         .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 18 : 13,
-        .frontAnimFrames = ANIM_FRAMES(
-            ANIMCMD_FRAME(0, 5),
-            ANIMCMD_FRAME(1, 25),
-            ANIMCMD_FRAME(0, 5),
-        ),
+        .frontAnimFrames =sAnims_SingleFramePlaceHolder, // no animation 
         .frontAnimId = P_GBA_STYLE_SPECIES_GFX ? ANIM_V_SLIDE_SLOW : ANIM_V_STRETCH,
         .frontAnimDelay = 10,
-        .backPic = gMonBackPic_Pidgey,
+        .backPic = gMonBackPic_Velociprey,
         .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(40, 48) : MON_COORDS_SIZE(56, 56),
         .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 11 : 7,
         .backAnimId = BACK_ANIM_H_SLIDE,
-        .palette = gMonPalette_Pidgey,//TODO
-        .shinyPalette = gMonShinyPalette_Pidgey,//TODO
-        .iconSprite = gMonIcon_Pidgey,//TODO
+        .palette = gMonPalette_Velociprey,//TODO
+        .shinyPalette = gMonShinyPalette_Velociprey,//TODO
+        .iconSprite = gMonIcon_Velociprey,//TODO
         .iconPalIndex = P_GBA_STYLE_SPECIES_ICONS ? 1 : 2,
         .pokemonJumpType = PKMN_JUMP_TYPE_FAST,
         SHADOW(0, 0, SHADOW_SIZE_S)
@@ -590,7 +586,7 @@ const struct SpeciesInfo gSpeciesInfoMH[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FLYING),
-        .abilities = { ABILITY_PRANKSTER, ABILITY_PICKUP ABILITY_SNIPER },//TODO add 3RD ability
+        .abilities = { ABILITY_PRANKSTER, ABILITY_PICKUP, ABILITY_SNIPER },//TODO add 3RD ability
         .bodyColor = BODY_COLOR_PURPLE,
         .speciesName = _("Jaggi"),
         .cryId = CRY_PIDGEY,
@@ -641,7 +637,7 @@ const struct SpeciesInfo gSpeciesInfoMH[] =
         .levelUpLearnset = sVelocipreyLevelUpLearnset,//TODO
         .teachableLearnset = sVelocipreyTeachableLearnset,//TODO
         .evolutions =  EVOLUTION({EVO_LEVEL, 15, SPECIES_JAGGIA, CONDITIONS({IF_GENDER, MON_FEMALE})},
-                                {EVO_LEVEL, 20, SPECIES_GREAT_JAGGI CONDITIONS({IF_GENDER, MON_MALE})}),
+                                {EVO_LEVEL, 20, SPECIES_GREAT_JAGGI, CONDITIONS({IF_GENDER, MON_MALE})}),
     },
 
     [SPECIES_JAGGIA] =
