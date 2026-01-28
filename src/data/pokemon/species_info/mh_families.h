@@ -55,15 +55,6 @@ const struct SpeciesInfo gSpeciesInfoMH[] =
         .pokemonJumpType = PKMN_JUMP_TYPE_FAST,
         SHADOW(0, 0, SHADOW_SIZE_S)
         FOOTPRINT(Pidgey)
-        OVERWORLD(
-            sPicTable_Pidgey,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_SPOT,
-            sAnimTable_Following,
-            gOverworldPalette_Pidgey,
-            gShinyOverworldPalette_Pidgey
-        )
         .tmIlliterate = FALSE,
         .levelUpLearnset = sVelocipreyLevelUpLearnset,
         .teachableLearnset = sVelocipreyTeachableLearnset,
