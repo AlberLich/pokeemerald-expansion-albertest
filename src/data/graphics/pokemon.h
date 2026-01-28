@@ -26748,10 +26748,12 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gOverworldPalette_Velociprey[] = INCBIN_U16("graphics/mhemerald/monsters/velociprey/overworld_normal.gbapal");
     const u16 gShinyOverworldPalette_Velociprey[] = INCBIN_U16("graphics/mhemerald/monsters/velociprey/overworld_shiny.gbapal");
 
-////////END MH EMERALD 
+
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_FAMILY_VELOCIPREY
+
+////////END MH EMERALD 
 
 
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.smol");
