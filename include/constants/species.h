@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_SPECIES_H
 
 // NOTE: The defines here are named in order to match Pokémon Showdown's naming conventions. This is done to avoid issues with trainerproc parsing species names. If a Pokémon does not have an entry on Showdown, use your best judgement.
-// Additionally, we have tried to reduce down to as few defines as possible, because programs like porymap does not always properly handle having multiple defines.
+// Additionally, we have tried to reduce down to as few defines as possible, because programs like porymap do not always properly handle having multiple defines.
 // Discussion: https://github.com/rh-hideout/pokeemerald-expansion/pull/5075#issuecomment-2384088602
 // Showdown: https://github.com/smogon/Pokemon-Showdown/blob/master/data/pokedex.ts
 
@@ -1638,75 +1638,59 @@
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GMAX         SPECIES_URSHIFU_RAPID_STRIKE_GMAX
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
+// Legends Z-A
+#define SPECIES_CLEFABLE_MEGA                           1524
+#define SPECIES_VICTREEBEL_MEGA                         1525
+#define SPECIES_STARMIE_MEGA                            1526
+#define SPECIES_DRAGONITE_MEGA                          1527
+#define SPECIES_MEGANIUM_MEGA                           1528
+#define SPECIES_FERALIGATR_MEGA                         1529
+#define SPECIES_SKARMORY_MEGA                           1530
+#define SPECIES_FROSLASS_MEGA                           1531
+#define SPECIES_EMBOAR_MEGA                             1532
+#define SPECIES_EXCADRILL_MEGA                          1533
+#define SPECIES_SCOLIPEDE_MEGA                          1534
+#define SPECIES_SCRAFTY_MEGA                            1535
+#define SPECIES_EELEKTROSS_MEGA                         1536
+#define SPECIES_CHANDELURE_MEGA                         1537
+#define SPECIES_CHESNAUGHT_MEGA                         1538
+#define SPECIES_DELPHOX_MEGA                            1539
+#define SPECIES_GRENINJA_MEGA                           1540
+#define SPECIES_PYROAR_MEGA                             1541
+#define SPECIES_MALAMAR_MEGA                            1542
+#define SPECIES_DRAGALGE_MEGA                           1543
+#define SPECIES_HAWLUCHA_MEGA                           1544
+#define SPECIES_FLOETTE_MEGA                            1545
+#define SPECIES_BARBARACLE_MEGA                         1546
+#define SPECIES_ZYGARDE_MEGA                            1547
+#define SPECIES_DRAMPA_MEGA                             1548
+#define SPECIES_FALINKS_MEGA                            1549
 /////////////////////////////// MONSTER HUNTER EMERALD SPECIES
 
-#define SPECIES_VELOCIPREY            1524
-#define SPECIES_VELOCIDROME            1525
-#define SPECIES_GIAPREY            1526
-#define SPECIES_GIADROME            1527
-#define SPECIES_GENPREY            1528
-#define SPECIES_GENDROME            1529
-#define SPECIES_IOPREY            1530
-#define SPECIES_IODROME            1531
+#define SPECIES_VELOCIPREY            1550
+#define SPECIES_VELOCIDROME           1551
+#define SPECIES_GIAPREY               1552
+#define SPECIES_GIADROME              1553
+#define SPECIES_GENPREY               1554
+#define SPECIES_GENDROME              1555
+#define SPECIES_IOPREY                1556
+#define SPECIES_IODROME               1557
 //Note there's a gap in docs so maybe some will be in different
+#define SPECIES_VELOCIDROME_MEGA      1558
 
-#define SPECIES_JAGGI 1536
-#define SPECIES_JAGGIA 1537
-#define SPECIES_GREAT_JAGGI 1538
-#define SPECIES_BAGGI 1539
-#define SPECIES_GREAT_BAGGI 1540
-#define SPECIES_WROGGI 1541
-#define SPECIES_GREAT_WROGGI 1542
-#define SPECIES_MACCAO 1543
-#define SPECIES_GREAT_MACCAO 1544
-#define SPECIES_IZUCHI 1545
-#define SPECIES_GREAT_IZUCHI 1546
+#define SPECIES_JAGGI                 1562
+#define SPECIES_JAGGIA                1563
+#define SPECIES_GREAT_JAGGI           1564
+#define SPECIES_BAGGI                 1565
+#define SPECIES_GREAT_BAGGI           1566
+#define SPECIES_WROGGI                1567
+#define SPECIES_GREAT_WROGGI          1568
+#define SPECIES_MACCAO                1569
+#define SPECIES_GREAT_MACCAO          1570
+#define SPECIES_IZUCHI                1571
+#define SPECIES_GREAT_IZUCHI          1572
 
-
-//NOTE replace the  SPECIES EGG LINE(at bottom) with the new last species -> SPECIES_EGG (SPECIES_VELOCIDROME + 1)
-/*
-#define SPECIES_ 1547
-#define SPECIES_ 1548
-#define SPECIES_ 1549
-#define SPECIES_ 1550
-#define SPECIES_ 1551
-#define SPECIES_ 1552
-#define SPECIES_ 1553
-#define SPECIES_ 1554
-#define SPECIES_ 1555
-#define SPECIES_ 1556
-#define SPECIES_ 1557
-#define SPECIES_ 1558
-#define SPECIES_ 1559
-#define SPECIES_ 1560
-#define SPECIES_ 1561
-#define SPECIES_ 1562
-#define SPECIES_ 1563
-#define SPECIES_ 1564
-#define SPECIES_ 1565
-#define SPECIES_ 1566
-#define SPECIES_ 1567
-#define SPECIES_ 1568
-#define SPECIES_ 1569
-#define SPECIES_ 1570
-#define SPECIES_ 1571
-#define SPECIES_ 1572
-#define SPECIES_ 1573
-#define SPECIES_ 1574
-#define SPECIES_ 1575
-#define SPECIES_ 1576
-#define SPECIES_ 1577
-#define SPECIES_ 1578
-#define SPECIES_ 1579
-#define SPECIES_ 1580
-#define SPECIES_ 1581
-#define SPECIES_ 1582
-#define SPECIES_ 1583
-#define SPECIES_ 1584
-#define SPECIES_ 1585 */
-
-
-#define SPECIES_EGG                                     (SPECIES_IODROME + 1)
+#define SPECIES_EGG                                     (SPECIES_VELOCIDROME_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

@@ -118,18 +118,82 @@ const struct SpeciesInfo gSpeciesInfoMH[] =
         .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
         SHADOW(-1, 14, SHADOW_SIZE_L)
         FOOTPRINT(Altaria)
-        OVERWORLD(
-            sPicTable_Altaria,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_NONE,
-            sAnimTable_Following,
-            gOverworldPalette_Altaria,
-            gShinyOverworldPalette_Altaria
-        )
+// This is Velocidrome data
         .levelUpLearnset = sVelocidromeLevelUpLearnset,
         .teachableLearnset = sVelocidromeTeachableLearnset,
+        .formSpeciesIdTable = sVelocidromeFormSpeciesIdTable,
+        .formChangeTable = sVelocidromeFormChangeTable,
     },
+    #if P_MEGA_EVOLUTIONS
+    [SPECIES_VELOCIDROME_MEGA] =
+    {
+        .baseHP        = 105,
+        .baseAttack    = 125,
+        .baseDefense   = 100,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 100,
+        .types = MON_TYPES(TYPE_NORMAL),
+        .catchRate = 45,
+        .expYield = 207,
+        .evYield_HP = 2,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER),
+        .abilities = { ABILITY_PARENTAL_BOND, ABILITY_PARENTAL_BOND, ABILITY_PARENTAL_BOND },
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Kangaskhan"),
+        .cryId = CRY_KANGASKHAN_MEGA,
+        .natDexNum = NATIONAL_DEX_KANGASKHAN,
+        .categoryName = _("Parent"),
+        .height = 22,
+        .weight = 1000,
+        .description = COMPOUND_STRING(
+            "When the mother sees the back of her\n"
+            "Mega-Evolved child, it makes her think\n"
+            "of the day when her child will inevitably\n"
+            "leave her."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 387,
+        .trainerOffset = 8,
+        .frontPic = gMonFrontPic_KangaskhanMega,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_SingleFramePlaceHolder,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_KangaskhanMega,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 6,
+        .backAnimId = BACK_ANIM_V_SHAKE_LOW,
+        .palette = gMonPalette_KangaskhanMega,
+        .shinyPalette = gMonShinyPalette_KangaskhanMega,
+        .iconSprite = gMonIcon_KangaskhanMega,
+        .iconPalIndex = 2,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(0, 11, SHADOW_SIZE_XL_BATTLE_ONLY)
+        FOOTPRINT(Kangaskhan)
+    #if OW_BATTLE_ONLY_FORMS
+        OVERWORLD(
+            sPicTable_KangaskhanMega,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_KangaskhanMega,
+            gShinyOverworldPalette_KangaskhanMega
+        )
+    #endif //OW_BATTLE_ONLY_FORMS
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sKangaskhanLevelUpLearnset,
+        .teachableLearnset = sKangaskhanTeachableLearnset,
+        .eggMoveLearnset = sKangaskhanEggMoveLearnset,
+        .formSpeciesIdTable = sVelocidromeFormSpeciesIdTable,
+        .formChangeTable = sVelocidromeFormChangeTable,
+    },
+#endif //P_MEGA_EVOLUTIONS
 
 #endif //P_FAMILY_VELOCIPREY
 
