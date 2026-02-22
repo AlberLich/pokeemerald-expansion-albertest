@@ -1,3 +1,15 @@
+//// MH EMERALD
+#if P_FAMILY_VELOCIPREY
+static const u16 sVelocidromeFormSpeciesIdTable[] = {
+    SPECIES_VELOCIDROME,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_VELOCIDROME_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+#endif //P_FAMILY_VELOCIPREY
+
+//// END MH EMERALD
 #if P_FAMILY_BULBASAUR
 static const u16 sVenusaurFormSpeciesIdTable[] = {
     SPECIES_VENUSAUR,

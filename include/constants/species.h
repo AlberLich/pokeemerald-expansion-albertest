@@ -1649,6 +1649,7 @@
 #define SPECIES_IOPREY            1530
 #define SPECIES_IODROME            1531
 //Note there's a gap in docs so maybe some will be in different
+#define SPECIES_VELOCIDROME_MEGA 1532
 
 #define SPECIES_JAGGI 1536
 #define SPECIES_JAGGIA 1537
@@ -1706,7 +1707,7 @@
 #define SPECIES_ 1585 */
 
 
-#define SPECIES_EGG                                     (SPECIES_IODROME + 1)
+#define SPECIES_EGG                                     (SPECIES_VELOCIDROME_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

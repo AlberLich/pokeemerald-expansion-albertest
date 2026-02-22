@@ -31,6 +31,8 @@ static const struct LevelUpMove sVelocidromeLevelUpLearnset[] = {
     LEVEL_UP_MOVE(48, MOVE_SOLAR_BEAM),
     LEVEL_UP_END
 };
+//ADD MEGA MOVESET AS BASEFORM
+
 #endif //P_FAMILY_VELOCIPREY
 
 

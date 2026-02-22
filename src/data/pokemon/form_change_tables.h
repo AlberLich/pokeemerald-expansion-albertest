@@ -1,3 +1,14 @@
+//// MH EMERALD MEGAS
+#if P_FAMILY_VELOCIPREY
+static const struct FormChange sVelocidromeFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_VELOCIDROME_MEGA, ITEM_VELOCIDROMITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_FAMILY_VELOCIDROME
+
+//// END MH EMERALD 
 #if P_FAMILY_BULBASAUR
 static const struct FormChange sVenusaurFormChangeTable[] = {
 #if P_MEGA_EVOLUTIONS

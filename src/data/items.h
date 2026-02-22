@@ -14589,6 +14589,26 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+// MH EMERALD ITEMS 
+    [ITEM_VELOCIDROMITE] =
+    {
+        .name = ITEM_NAME("VELOCIDROMITE"),
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = COMPOUND_STRING(
+            "This stone enables\n"
+            "VELOCIDROME to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .sortType = ITEM_TYPE_MEGA_STONE,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Scizorite,
+        .iconPalette = gItemIconPalette_Scizorite,
+    },
+
+
 };
 
 #undef ITEM_NAME
