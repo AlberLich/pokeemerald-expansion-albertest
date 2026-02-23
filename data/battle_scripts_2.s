@@ -232,6 +232,13 @@ BattleScript_ShakeBallThrow::
 BattleScript_ShakeBallThrowEnd::
 	finishaction
 
+
+BattleScript_NuzlockeBallBlock::
+	waitmessage B_WAIT_TIME_LONG
+	printstring STRINGID_NUZLOCKEBLOCKEDBALL
+	waitmessage B_WAIT_TIME_LONG
+	finishaction
+
 BattleScript_TrainerBallBlock::
 	waitmessage B_WAIT_TIME_LONG
 	printstring STRINGID_TRAINERBLOCKEDBALL
