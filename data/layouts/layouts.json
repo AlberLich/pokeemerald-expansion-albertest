@@ -4440,6 +4440,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Seconda_Town/border.bin",
       "blockdata_filepath": "data/layouts/Seconda_Town/map.bin"
+    },
+    {
+      "id": "LAYOUT_SECONDA_WOODS",
+      "name": "SECONDA_WOODS_Layout",
+      "width": 40,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SECONDA_WOODS/border.bin",
+      "blockdata_filepath": "data/layouts/SECONDA_WOODS/map.bin"
     }
   ]
 }

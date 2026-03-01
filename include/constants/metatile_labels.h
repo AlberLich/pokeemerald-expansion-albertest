@@ -224,6 +224,7 @@
 #define METATILE_General_MuddySlope_Frame1     0x0E9
 #define METATILE_General_MuddySlope_Frame2     0x0EA
 #define METATILE_General_MuddySlope_Frame3     0x0EB
+#define METATILE_General_NORTHARROW            0x02A
 #define METATILE_General_RedCaveIndent         0x1A0
 #define METATILE_General_RedCaveOpen           0x1A1
 #define METATILE_General_ReflectiveWater       0x0A1
@@ -392,6 +393,7 @@
 #define METATILE_Petalburg_Door_BirchsLab   0x249
 #define METATILE_Petalburg_Door_Littleroot  0x248
 #define METATILE_Petalburg_Door_Oldale      0x287
+#define METATILE_Petalburg_SOUTHARROW       0x29A
 
 // gTileset_PetalburgGym
 #define METATILE_PetalburgGym_Door                0x224
