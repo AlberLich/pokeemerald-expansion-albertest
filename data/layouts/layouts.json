@@ -4430,6 +4430,16 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/InitialTown_2/border.bin",
       "blockdata_filepath": "data/layouts/InitialTown_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SECONDA_TOWN",
+      "name": "Seconda_Town_Layout",
+      "width": 26,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Seconda_Town/border.bin",
+      "blockdata_filepath": "data/layouts/Seconda_Town/map.bin"
     }
   ]
 }

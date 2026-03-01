@@ -1234,6 +1234,10 @@
     {
       "id": "MAPSEC_INITALTOWM",
       "name": "INITALTOWM"
+    },
+    {
+      "id": "MAPSEC_SECONDA_TOWN",
+      "name": "SECONDA TOWN"
     }
   ]
 }

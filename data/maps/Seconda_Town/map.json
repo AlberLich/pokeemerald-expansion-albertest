@@ -1,9 +1,9 @@
 {
-  "id": "MAP_ROUTE1_2",
-  "name": "Route1_2",
-  "layout": "LAYOUT_ROUTE1_2",
-  "music": "MUS_RG_ROUTE1",
-  "region_map_section": "MAPSEC_ROUTE_1",
+  "id": "MAP_SECONDA_TOWN",
+  "name": "Seconda_Town",
+  "layout": "LAYOUT_SECONDA_TOWN",
+  "music": "MUS_PETALBURG",
+  "region_map_section": "MAPSEC_SECONDA_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",
@@ -14,14 +14,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_INITIAL_TOWN_2",
-      "offset": 0,
+      "map": "MAP_ROUTE1_2",
+      "offset": 6,
       "direction": "down"
-    },
-    {
-      "map": "MAP_SECONDA_TOWN",
-      "offset": -6,
-      "direction": "up"
     }
   ],
   "object_events": [],
