@@ -469,3 +469,4 @@ void NuzlockeSilentSave(void)
 {
     TrySavingData(SAVE_LINK);
 }
+//comment test
